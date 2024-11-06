@@ -1,5 +1,5 @@
 # TDS_Toronto_P1
-Data Collection: This project scraped user and repository data of GitHub users located in Toronto with over 100 followers using the GitHub API.
+-Data Collection: This project scraped user and repository data of GitHub users located in Toronto with over 100 followers using the GitHub API.
 Key Insight: Certain companies, like GarnerCorp and Shopify, show a high volume of public GitHub contributions, while niche languages like Cython and Forth exhibit higher engagement rates.
 Recommendation: Developers can increase visibility by contributing to popular, highly engaged languages or open-source projects associated with influential companies.
 Project Overview
