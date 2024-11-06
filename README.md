@@ -1,37 +1,40 @@
-# TDS_Toronto_P1
--Data Collection: This project scraped user and repository data of GitHub users located in Toronto with over 100 followers using the GitHub API.
-Key Insight: Certain companies, like GarnerCorp and Shopify, show a high volume of public GitHub contributions, while niche languages like Cython and Forth exhibit higher engagement rates.
-Recommendation: Developers can increase visibility by contributing to popular, highly engaged languages or open-source projects associated with influential companies.
+TDS_Toronto_P1
 Project Overview
-This project aims to analyze GitHub data for Toronto-based users with significant followings. We scraped user and repository data, focusing on engagement metrics, to draw insights on popular languages, active companies, and engagement trends in Toronto’s GitHub community.
+This project analyzes GitHub data from Toronto-based users with over 100 followers to identify trends in engagement, popular programming languages, and key contributing companies. Data was collected via the GitHub API, focusing on user and repository metrics, with the aim of providing insights for developers and companies in Toronto’s GitHub community.
 
-Key Findings
-1. Top Contributors by Company
-The companies with the highest volume of public contributions among Toronto’s GitHub users are:
+Data Collection
+Scope: Scraped user and repository data from GitHub for Toronto-based users with more than 100 followers.
+Source: GitHub API.
+Key Insights
+Top Contributors by Company: Certain companies show a significant presence on GitHub, indicated by their high volume of public contributions:
 
 GarnerCorp: 2,085 repositories
 Shopify: 1,455 repositories
 Quinntyne: 1,216 repositories
-These companies have established strong open-source profiles, suggesting active engagement within the GitHub community.
+These companies demonstrate strong engagement within the open-source community.
+Languages with Highest Engagement: Niche programming languages show remarkable engagement rates, measured by stargazers and watchers per repository:
 
-2. Languages with Highest Engagement
-Languages associated with the highest levels of engagement (based on average stargazers and watchers per repository) include:
-
-Cython: Avg. 1,780 stargazers, 1,780 watchers across 6 repositories
-Forth: Avg. 1,192 stargazers, 1,192 watchers for 1 repository
-ASP.NET: Avg. 414 stargazers, 414 watchers across 2 repositories
-BrighterScript: Avg. 313 stargazers, 313 watchers for 1 repository
-SAS: Avg. 172 stargazers, 172 watchers for 1 repository
-These findings reveal that languages with niche or specialized applications, like Cython and Forth, show high per-repo engagement, possibly due to targeted, high-value applications or the specialized knowledge required to contribute.
-
-Actionable Insights
-Leverage High-Engagement Languages: Developers seeking visibility could benefit by contributing to repositories using high-engagement languages like Cython and Forth, as they attract more attention relative to other languages.
-Explore Popular Companies’ Open-Source Projects: Engaging with repositories associated with high-contributing companies, such as GarnerCorp and Shopify, can enhance developers’ profiles and networking opportunities within active open-source communities.
+Cython: Avg. 1,780 stargazers and watchers across 6 repositories
+Forth: Avg. 1,192 stargazers and watchers for 1 repository
+ASP.NET: Avg. 414 stargazers and watchers across 2 repositories
+BrighterScript: Avg. 313 stargazers and watchers for 1 repository
+SAS: Avg. 172 stargazers and watchers for 1 repository
+These findings suggest that specialized languages attract dedicated followers, possibly due to high-value applications or niche expertise.
+Recommendations
+Leverage High-Engagement Languages: Developers aiming to boost visibility should consider contributing to repositories with high-engagement languages like Cython and Forth, which draw significant interest.
+Collaborate with Popular Companies: Engaging with open-source projects associated with top-contributing companies, such as GarnerCorp and Shopify, can enhance developers’ profiles and networking opportunities within the community.
 File Structure
-users.csv: Contains details on Toronto-based GitHub users with the following fields:
+users.csv: Details of Toronto-based GitHub users, including:
 login, name, company, location, bio, public_repos, followers, following, created_at
-repositories.csv: Contains details on public repositories, with fields:
+repositories.csv: Information on public repositories, including:
 full_name, created_at, stargazers_count, watchers_count, language, has_projects, has_wiki, license_name
 How to Use
-Clone the repository.
-Open users.csv and repositories.csv to analyze Toronto’s GitHub community, explore active companies, and identify high-engagement languages.
+Clone the Repository: Download the repository files.
+Analyze Data: Open users.csv and repositories.csv to explore Toronto’s GitHub landscape, assess active companies, and identify high-engagement languages.
+This structure ensures clarity and enhances readability for any developer or stakeholder interested in the project.
+
+
+
+
+
+
