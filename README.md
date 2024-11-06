@@ -1,12 +1,10 @@
-TDS_Toronto_P1
-Project Overview
-This project analyzes GitHub data from Toronto-based users with over 100 followers to identify trends in engagement, popular programming languages, and key contributing companies. Data was collected via the GitHub API, focusing on user and repository metrics, with the aim of providing insights for developers and companies in Toronto’s GitHub community.
+#TDS_Toronto_P1
 
-Data Collection
-Scope: Scraped user and repository data from GitHub for Toronto-based users with more than 100 followers.
+#Data Collection
+#Scope: Scraped user and repository data from GitHub for Toronto-based users with more than 100 followers.
 Source: GitHub API.
-Key Insights
-Top Contributors by Company: Certain companies show a significant presence on GitHub, indicated by their high volume of public contributions:
+#Key Insights
+#Top Contributors by Company: Certain companies show a significant presence on GitHub, indicated by their high volume of public contributions:
 
 GarnerCorp: 2,085 repositories
 Shopify: 1,455 repositories
